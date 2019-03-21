@@ -1,11 +1,13 @@
+# The config file has the global settings of your webpage
+# You need to jekyll serve again for its changes to take effect
 title: Agency - Start Bootstrap Theme
 description: ''
 author: ''
 
+theme: jekyll-theme-startbootstrap-agency
+
 sass:
   style: compressed
-
-assets_path: '' 
 
 collections:
   projects:
