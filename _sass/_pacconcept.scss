@@ -1,0 +1,27 @@
+section {
+  .pac-header {
+    i {
+      margin-bottom: 2rem;
+    }
+  }
+  .pac-content{
+    font-size: 1.3rem;
+  }
+
+}
+
+#packdev {
+  background-image: url('../img/services/packdev.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  @include background-cover;
+}
+
+#draw {
+  background-image: url('../img/services/draw.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  @include background-cover;
+}
