@@ -1,8 +1,8 @@
 # The config file has the global settings of your webpage
 # You need to jekyll serve again for its changes to take effect
-title: Agency - Start Bootstrap Theme
-description: ''
-author: ''
+title: Pacconcept
+description: Freelancing homepage for customised packaging solutions
+author: Henriette S. Peter
 
 theme: jekyll-theme-startbootstrap-agency
 

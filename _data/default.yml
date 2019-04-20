@@ -1,34 +1,30 @@
 brand:
-  name: Start Bootstrap
+#  name: Pacconcept
 menu-string: Menu
 
 nav:
-  - title: Services
-    url: '#services'
-  - title: Portfolio
-    url: '#portfolio'
-  - title: About
-    url: '#about'
-  - title: Team
-    url: '#team'
-  - title: Contact
-    url: '#contact'
+  #- title: Services
+#    url: '#services'
+#  - title: Portfolio
+#    url: '#portfolio'
+#  - title: About
+#    url: '#about'
+#  - title: Team
+#    url: '#team'
+#  - title: Contact
+#    url: '#contact'
 
-copyright: Copyright &copy; Your Website 2018
+copyright: '&copy; Pacconcept 2019'
 
 social-buttons:
-  - icon: fa fa-twitter
-    url: '#' 
-  - icon: fa fa-facebook
-    url: '#'
-  - icon: fa fa-linkedin
-    url: '#'
+  - icon: fab fa-linkedin-in
+    url: 'https://www.linkedin.com/in/henriette-s-peter/'
 
 quicklinks:
-  - title: Privacy Policy
-    url: '#'
-  - title: Terms of Use
-    url: '#'
+#  - title: Privacy Policy
+#    url: '#'
+#  - title: Terms of Use
+#    url: '#'
 
 modal:
   date-string: 'Date: '
