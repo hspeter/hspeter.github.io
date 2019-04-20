@@ -1,11 +1,11 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url('../img/header-bg.jpg');
+  color: black;
+  background-image: url('../img/Background.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center 30%;
   @include background-cover;
   .intro-text {
     padding-top: 150px;
@@ -25,6 +25,16 @@ header.masthead {
       @include heading-font;
     }
   }
+  .services {
+    padding-bottom: 2rem;
+    a {
+      color:black;
+    }
+    h4 {
+      font-size: 1.4rem;
+    }
+  }
+
 }
 @media(min-width:768px) {
   header.masthead {
