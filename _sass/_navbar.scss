@@ -1,12 +1,14 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
+  line-height: 2rem;
+  color: black;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #212529;  //menu font button color small nav-bar
     border: 0;
     background-color: $primary;
     @include heading-font;
@@ -24,11 +26,11 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
+        font-size: 75%;
         font-weight: 400;
         padding: 0.75em 0;
-        letter-spacing: 1px;
-        color: white;
+        letter-spacing: 0.5px;
+        color: white;  //sections font color small nav-bar
         @include heading-font;
         &.active,
         &:hover {
@@ -53,10 +55,12 @@
       -moz-transition: all 0.3s;
       transition: all 0.3s;
     }
+
     .navbar-nav {
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+          color: black;  //sections font color big nav-bar top
         }
       }
     }
@@ -67,6 +71,17 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: white; //sections font color big nav-bar fixed
+            &.active,
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
       }
     }
   }

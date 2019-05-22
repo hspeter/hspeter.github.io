@@ -1,82 +1,59 @@
 intro:
-  lead-in: "Welcome To Our Studio!"
-  heading: It's Nice To Meet You
-  btn: Tell Me More
+  logo: /assets/img/logos/Pacconcept.png
 
 services:
-  heading: Services
-  subheading: Lorem ipsum dolor sit amet consectetur.
   service:
-    - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-laptop
-      heading: Responsive Design
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-lock
-      heading: Web Security
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: /assets/img/services/pac-pencil.svg
+      heading: Packaging Development
+      id: packdev
+    - icon: /assets/img/services/pac-boxes.svg
+      heading: 3D Visualisation
+      id: vis
+    - icon: /assets/img/services/pac-draw.svg
+      heading: Production Drawing
+      id: draw
+    - icon: /assets/img/services/pac-pallet.svg
+      heading: C-Part Management
+      id: cpart
 
-portfolio:
-  heading: Portfolio
-  subheading: Lorem ipsum dolor sit amet consectetur.
+packdev:
+  id: packdev
+  icon: /assets/img/services/pac-pencil.svg
+  heading: Packaging Development
+  text: The needs of the product are evaluated, to ensure the protection and a good fit of the product. The packaging is designed, keeping the individual needs of the customer in mind, without restrictions or guidelines given by specific supplier or manufacturer. These packaging solutions are not bound to specific suppliers or manufacturers. They are customer’s property and can therefore be used to request quotations and to find the optimal production partner for each individual solution
 
-about:
-  heading: About
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  timeline:
-    - image: img/about/1.jpg
-      date: 2009-2011
-      title: Our Humble Beginnings
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/2.jpg
-      date: March 2011
-      title: An Agency is Born
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/3.jpg
-      date: December 2012
-      title: Transition to Full Service
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/4.jpg
-      date: July 2014
-      title: Phase Two Expansion
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+vis:
+  id: vis
+  icon: /assets/img/services/pac-boxes.svg
+  heading: 3D Visualisation
+  text: The 3D visualisation helps to understand the digital packaging solution, preventing any misunderstanding. The visualisation can furthermore be forwarded to the supplier, for a better understanding during the manufacturing and assembly process. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
+draw:
+  id: draw
+  icon: /assets/img/services/pac-draw.svg
+  heading: Production Drawing
+  text: With a production drawing at hand, the packaging can be produced by any manufacturer   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+cpart:
+  id: cpart
+  icon: /assets/img/services/pac-pallet.svg
+  heading: C-Part Management
+  text: Supporting record keeping through visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 team:
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  id: pac-team
+  heading: About
   members:
-    - name: Kay Garland
-      role: Lead Designer
+    - name: Henriette S. Peter
+      role: "With a B. Eng. in Packaging Technology (2012, Stuttgart Media University Germany) and a M.A. (Research, 2017, Nanyang Technological University Singapore), Henriette Peter has since been working as an industrial packaging engineer, creating customized packaging solutions in Germany and Singapore. With the gathered knowledge she founded Pacconcept in 2019, a location independent digital engineering office, to create efficient and manufacturer-independent packaging solutions."
       img: img/team/1.jpg
       social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
-        
-
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
-clients:
-  - img: img/logos/envato.jpg
-    url: "#"
-  - img: img/logos/designmodo.jpg
-    url: "#"
-  - img: img/logos/themeforest.jpg
-    url: "#"
-  - img: img/logos/creative-market.jpg
-    url: "#"
+        - icon: fab fa-linkedin-in
+          url: "https://www.linkedin.com/in/henriette-s-peter/"
 
 contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: Contact
+#  subheading: Lorem ipsum dolor sit amet consectetur.
   name: Your Name *
   name-required: Please enter your name.
   email: Your Email *

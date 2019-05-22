@@ -4,6 +4,9 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
+  @media(min-width:992px) {
+    height: 515px;
+  }
   .section-heading {
     color: $white;
   }

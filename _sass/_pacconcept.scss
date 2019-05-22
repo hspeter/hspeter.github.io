@@ -4,10 +4,53 @@ section {
       margin-bottom: 2rem;
     }
   }
-  .pac-content{
-    font-size: 1.3rem;
-  }
+  .pac-content {
+    font-size: 1.2rem;
+    color: #4f5050;
+      @media (max-width: 767.98px) {
+        font-size: 1.1rem;
+      }
+      @media (max-width: 575.98px) {
+        font-size: 1rem;
+      }
+    }
+    .pac-content-contact {
+      font-size: 1.2rem;
+      color: $white;
+        @media (max-width: 767.98px) {
+          font-size: 1.1rem;
+        }
+        @media (max-width: 575.98px) {
+          font-size: 1rem;
+        }
+      }
+}
 
+.pac-section {
+  padding-top: 3.5rem;
+}
+
+.service-icons {
+  //position: relative;
+  display: inline-block;
+  font-size: 4em;
+  width: 50px;
+  @media (max-width: 767.98px) {
+    width: 45px;
+  }
+  @media (max-width: 575.98px) {
+    width: 38px;
+  }
+}
+
+.service-icon-top {
+  height: 3rem;
+  @media (max-width: 767.98px) {
+    height: 2.5rem;
+  }
+  @media (max-width: 575.98px) {
+    height: 2rem;
+  }
 }
 
 #packdev {
@@ -16,6 +59,32 @@ section {
   background-attachment: scroll;
   background-position: center 30%;
   @include background-cover;
+  @media(min-width:992px) {
+    height: 800px;
+  }
+}
+
+#vis {
+//  background-image: url('../img/services/packdev.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  @include background-cover;
+  @media(min-width:992px) {
+    height: 800px;
+  }
+}
+
+.last-item {
+  @media (max-width: 575.98px) {
+    margin: -15px auto 0;
+  }
+}
+
+.img-fluid-vis {
+  @media (max-width: 575.98px) {
+    max-width: 115%;
+  }
 }
 
 #draw {
@@ -24,4 +93,65 @@ section {
   background-attachment: scroll;
   background-position: center 30%;
   @include background-cover;
+  @media(min-width:992px) {
+    height: 800px;
+  }
+}
+
+#cpart {
+//  background-image: url('../img/services/draw.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  @include background-cover;
+  @media(min-width:992px) {
+    height: 800px;
+  }
+}
+
+.img-fluid-cpart {
+  @media (max-width: 575.98px) {
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto 0;
+  }
+}
+
+.last-cpart {
+  @media (max-width: 575.98px) {
+    margin: 15px auto 0;
+  }
+}
+
+
+#about {
+  position: relative;
+}
+
+#pac-team {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  @include background-cover;
+  @media(min-width:992px) {
+    height: 800px;
+  }
+}
+.rounded-circle-team {
+  border-radius: 50% !important;
+  margin-bottom: 20px;
+}
+
+.monster-div {
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
+}
+
+.monster {
+  height: 5rem;
+}
+
+.pac-contact {
+
 }

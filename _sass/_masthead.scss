@@ -6,10 +6,20 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center 30%;
+  //height: 800px;  // check back later for home section height
+  position: relative;
+  @media(min-width:992px) {
+    height: 800px;
+  }
   @include background-cover;
   .intro-text {
     padding-top: 150px;
-    padding-bottom: 100px;
+    @media (max-width: 767.98px) {
+      padding-top: 180px;
+    }
+    @media (max-width: 575.98px) {
+      padding-top: 135px;
+    }
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -24,14 +34,45 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
+    .logo {
+      height: 150px;
+      @media (max-width: 767.98px) {
+        height: 120px;
+      }
+      @media (max-width: 575.98px) {
+        height: 90px;
+      }
+    }
+
   }
   .services {
-    padding-bottom: 2rem;
+     padding-bottom: 2rem;   //add for biggest
+    // position: absolute;
+    // bottom: 70px;      //delete?
+    margin: 140px auto 0;
+    max-width: 1200px;
+    padding-bottom: 60px;
+
+    @media (max-width: 767.98px) {
+      margin: 95px auto 0;   //margin: top left/right bottom
+      padding-bottom: 60px;
+    }
+    @media (max-width: 575.98px) {
+      margin: 25px auto 0;
+      padding-bottom: 35px;
+    }
+
     a {
       color:black;
     }
     h4 {
       font-size: 1.4rem;
+      @media (max-width: 767.98px) {
+        font-size: 1.3rem;
+      }
+      @media (max-width: 575.98px) {
+        font-size: 1.2rem;
+      }
     }
   }
 
@@ -39,8 +80,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 250px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;

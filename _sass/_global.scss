@@ -16,7 +16,7 @@ a {
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $primary;
 }
 
 h1,
@@ -25,16 +25,34 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 400;
   @include heading-font;
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
   h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
+    font-size: 34px;
+    margin-top: 22px;
     margin-bottom: 15px;
+    @media (max-width: 767.98px) {
+      font-size: 27px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 20px;
+    }
+  }
+  h2.section-heading-contact {
+    font-size: 34px;
+    margin-bottom: 60px;
+    color: white;
+    @media (max-width: 767.98px) {
+      font-size: 27px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
   }
   h3.section-subheading {
     font-size: 16px;
@@ -54,7 +72,7 @@ section {
 // Button Styles
 .btn {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
@@ -96,3 +114,8 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+// helpers
+.top05 { margin-top: 0.5rem; }
+.top1 { margin-top: 1rem; }
+.top2 { margin-top: 2rem; }
