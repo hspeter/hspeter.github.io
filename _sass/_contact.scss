@@ -4,8 +4,15 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
-  @media(min-width:992px) {
-    height: 515px;
+  height: 515px;
+  padding-top: 115px;
+  @media (max-width: 767.98px) {
+    height: 400px;
+    padding-top: 100px;
+  }
+  @media (max-width: 575.98px) {
+    height: 333px;
+    padding-top: 63px;
   }
   .section-heading {
     color: $white;

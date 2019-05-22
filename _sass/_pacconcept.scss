@@ -1,4 +1,7 @@
 section {
+  .pac-navbar {
+      margin-left: 200px;
+    }
   .pac-header {
     i {
       margin-bottom: 2rem;
@@ -150,8 +153,26 @@ section {
 
 .monster {
   height: 5rem;
+  @media (max-width: 767.98px) {
+    height: 4rem;
+  }
+  @media (max-width: 575.98px) {
+    height: 3rem;
+  }
 }
 
-.pac-contact {
-
+.pac-btn {
+  font-size: 20px;
+  padding: 14px 28px;
+  margin: 55px auto 10px;
+  @media (max-width: 767.98px) {
+    margin: 27px auto 0;
+    font-size: 18px;
+    padding: 12px 25px;
+  }
+  @media (max-width: 575.98px) {
+    margin: 40px auto 3;
+    font-size: 15px;
+    padding: 10px 19px;
+  }
 }
