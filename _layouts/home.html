@@ -19,7 +19,7 @@ layout: default
         <div class="row text-center services">
           {%- for service in site.data.home.services.service -%}
           <div class="col-md-3 col-sm-6 col-6">
-            <a href="#{{ service.id }}">
+            <a class="js-scroll-trigger" href="#{{ service.id }}">
               <span class="service-icons">
                 <img src="{{ service.icon }}">
               </span>
