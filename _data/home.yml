@@ -20,20 +20,21 @@ packdev:
   id: packdev
   icon: /assets/img/services/pac-pencil.svg
   heading: Packaging Development
-  text: The needs of the product are evaluated, to ensure the protection and a good fit of the product. The packaging is designed, keeping the individual needs of the customer in mind, without restrictions or guidelines given by specific supplier or manufacturer. These packaging solutions are not bound to specific suppliers or manufacturers. They are customer’s property and can therefore be used to request quotations and to find the optimal production partner for each individual solution
+  text: Every product needs to be packed, be it for transportation or presentation purposes. Therefore, it is imperative to evaluate the characteristics of each product and professionally develop packaging that protects and complements your goods throughout its packed life-cycle.<br>PacConcept specialises in designing, conceptualising and developing optimal and efficient packaging solutions, keeping your individual needs and its respective packaging process in mind and complying with international standards.<br>The custom packaging solutions that we offer are not bound to specific suppliers or manufacturers. They are your property and give you complete flexibility to request and compare quotations and to find a suitable production partner for each individual concept worldwide.
+
 
 vis:
   id: vis
   icon: /assets/img/services/pac-boxes.svg
   heading: 3D Visualisation
-  text: The 3D visualisation helps to understand the digital packaging solution, preventing any misunderstanding. The visualisation can furthermore be forwarded to the supplier, for a better understanding during the manufacturing and assembly process. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  text: We live in a visual world where concepts thrive when properly visualised. 3D Visualisations augment correct understanding during the conceptualisation, manufacturing and assembly processes and help add tangible value to the packaging, for all parties involved.<br>We create realistic visualisations of packaging solutions for multiple purposes at different stages. Be it the folding process, key details, the exploded view or the final packaging solution. You can get high-resolution images, or even the 3D model of your concept to interactively visualize it.
 
 draw:
   id: draw
   icon: /assets/img/services/pac-draw.svg
   heading: Production Drawing
-  text: With a production drawing at hand, the packaging can be produced by any manufacturer   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+  text: For the actual production and manufacturing of the packaging solution, it is essential to have professional production drawings that embody the packaging concept.<br>We draft accurate and internationally compliant production drawings of the packaging solution that can be used by any manufacturer. These do not only portray the technical details of the packaging solution but can also be used to be deposited in the enterprise resource planning (ERP) system, to speed up iterated purchases.
+    
 cpart:
   id: cpart
   icon: /assets/img/services/pac-pallet.svg

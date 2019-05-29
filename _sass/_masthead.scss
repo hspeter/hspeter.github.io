@@ -11,6 +11,9 @@ header.masthead {
   @media(min-width:992px) {
     height: 800px;
   }
+  @media(min-width: 1281px) {
+    height: 100vh;
+  }
   @include background-cover;
   .intro-text {
     padding-top: 150px;
@@ -19,6 +22,9 @@ header.masthead {
     }
     @media (max-width: 575.98px) {
       padding-top: 135px;
+    }
+    @media (min-width: 1281px) {
+      padding-top: 330px;
     }
     .intro-lead-in {
       font-size: 22px;
@@ -60,6 +66,9 @@ header.masthead {
     @media (max-width: 575.98px) {
       margin: 25px auto 0;
       padding-bottom: 35px;
+    }
+    @media (min-width: 1201px) {
+      margin: 210px auto 0;
     }
 
     a {

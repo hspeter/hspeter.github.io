@@ -1,5 +1,11 @@
 // Styling for the services section
 .service-heading {
-  margin: 7px 0;
+  margin: 7px auto 0;
   text-transform: none;
+  @media (max-width: 767.98px) {
+    font-size: 7px auto 19px;
+  }
+  @media (max-width: 575.98px) {
+    margin: 11px auto 24px;
+  }
 }
