@@ -1,5 +1,6 @@
 intro:
   logo: /assets/img/logos/Pacconcept.png
+  logo-slogan: /assets/img/logo-slogan.png
 
 services:
   service:
@@ -20,37 +21,42 @@ packdev:
   id: packdev
   icon: /assets/img/services/pac-pencil.svg
   heading: Packaging Development
-  text: Every product needs to be packed, be it for transportation or presentation purposes. Therefore, it is imperative to evaluate the characteristics of each product and professionally develop packaging that protects and complements your goods throughout its packed life-cycle.<br>PacConcept specialises in designing, conceptualising and developing optimal and efficient packaging solutions, keeping your individual needs and its respective packaging process in mind and complying with international standards.<br>The custom packaging solutions that we offer are not bound to specific suppliers or manufacturers. They are your property and give you complete flexibility to request and compare quotations and to find a suitable production partner for each individual concept worldwide.
+  text: Every product needs to be packed, be it for transportation or presentation purposes. Therefore, it is imperative to evaluate the characteristics of each product and professionally develop packaging that protects and complements your goods throughout its packed life-cycle.<br>PacConcept specialises in designing, conceptualising and developing optimal and efficient packaging solutions, keeping your individual needs and its respective packaging process in mind and complying with international standards.<br>The custom packaging solutions that we offer are not bound to specific suppliers or manufacturers, for PacConcept, an optimal and sincere packaging is of primary importance. The packaging solution becomes your property and you have complete flexibility to request and compare quotations and to find a suitable production partner for each individual concept worldwide.
 
 
 vis:
   id: vis
   icon: /assets/img/services/pac-boxes.svg
   heading: 3D Visualisation
-  text: We live in a visual world where concepts thrive when properly visualised. 3D Visualisations augment correct understanding during the conceptualisation, manufacturing and assembly processes and help add tangible value to the packaging, for all parties involved.<br>We create realistic visualisations of packaging solutions for multiple purposes at different stages. Be it the folding process, key details, the exploded view or the final packaging solution. You can get high-resolution images, or even the 3D model of your concept to interactively visualize it.
+  text: We live in a visual world where concepts thrive when properly visualised. 3D Visualisations augment correct understanding during the conceptualisation, manufacturing and assembly processes and help add tangible value to the packaging, for all parties involved.<br>We create realistic visualisations of packaging solutions for multiple purposes at different stages. Be it the folding process, key details, the exploded view or the final packaging solution. You can get high-resolution images, or even the 3D model of your concept to interactively visualise it.
 
 draw:
   id: draw
   icon: /assets/img/services/pac-draw.svg
   heading: Production Drawing
-  text: For the actual production and manufacturing of the packaging solution, it is essential to have professional production drawings that embody the packaging concept.<br>We draft accurate and internationally compliant production drawings of the packaging solution that can be used by any manufacturer. These do not only portray the technical details of the packaging solution but can also be used to be deposited in the enterprise resource planning (ERP) system, to speed up iterated purchases.
-    
+  text: For the actual production and manufacturing of the packaging solution, it is essential to have professional production drawings that embody the packaging concept.<br>We draft accurate and internationally compliant production drawings of the packaging solution that can be used by any manufacturer. These do not only portray the technical details of the packaging solution but can also be used to be deposited in the enterprise resource planning (ERP) system, to speed up recurring purchases.
+
 cpart:
   id: cpart
   icon: /assets/img/services/pac-pallet.svg
   heading: C-Part Management
-  text: Supporting record keeping through visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  text: For bulk transportation of your packaging solution, we can help you find the optimal packing volume and stacking pattern within standardised pallet sizes. We draw and clearly visualise our suggestion, so that you can be confident that no space is being wasted. These drawings provide a good base in handling reoccurring purchases, as they can be easily embedded in customer relationship management (CRM) and enterprise resource planning (ERP) systems.
 
 team:
   id: pac-team
   heading: About
   members:
     - name: Henriette S. Peter
-      role: "With a B. Eng. in Packaging Technology (2012, Stuttgart Media University Germany) and a M.A. (Research, 2017, Nanyang Technological University Singapore), Henriette Peter has since been working as an industrial packaging engineer, creating customized packaging solutions in Germany and Singapore. With the gathered knowledge she founded Pacconcept in 2019, a location independent digital engineering office, to create efficient and manufacturer-independent packaging solutions."
-      img: img/team/1.jpg
+      role: "With a Bachelor of Engineering in Packaging Technology (2012, Stuttgart Media University Germany) and a Master of Arts (Research, 2017, Nanyang Technological University Singapore), Henriette Peter has since been working as an industrial packaging engineer, creating customised packaging solutions in Germany and Singapore. With the gathered experience and knowledge, she founded PacConcept OÜ in 2019, a location independent digital engineering office, to create efficient and manufacturer-independent packaging solutions."
+      img: img/team/1.png
       social-buttons:
         - icon: fab fa-linkedin-in
           url: "https://www.linkedin.com/in/henriette-s-peter/"
+        - icon: fas fa-paper-plane pac-mail
+          url: "mailto:henriette@pacconcept.com"
+
+slogan2:
+  text: From the conceptual packaging development, 3D visualisation, production drawings to c-part management, it is our goal to develop the perfect packaging solution customised to your needs.
 
 contact:
   heading: Contact Us

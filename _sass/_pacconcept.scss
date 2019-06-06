@@ -1,5 +1,76 @@
+// custom styling
 .pac-text-justify {
   text-align: justify;
+}
+
+.pac-container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .pac-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pac-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pac-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pac-container {
+    max-width: 1140px;
+  }
+}
+
+.pac-slogan {
+  padding-top: 40px;
+  text-align: center;
+  height: 100%;
+}
+
+.pac-slogan-container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .pac-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pac-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pac-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pac-container {
+    max-width: 1140px;
+  }
 }
 
 section {
@@ -20,18 +91,22 @@ section {
       @media (max-width: 575.98px) {
         font-size: 1rem;
       }
+      @media(min-width: 1281px) {
+        padding-bottom: 20px;
+      }
     }
     .pac-content-contact {
-      font-size: 1.2rem;
+      font-size: 1rem;
       color: $white;
         @media (max-width: 767.98px) {
-          font-size: 1.1rem;
+          font-size: 0.9rem;
         }
         @media (max-width: 575.98px) {
-          font-size: 1rem;
+          font-size: 0.8rem;
         }
       }
 }
+
 
 .pac-section {
   padding-top: 3.5rem;
@@ -74,6 +149,10 @@ section {
   @media(min-width: 1281px) {
     height: 100vh;
   }
+  @media(max-width: 991.98px) {
+    background-position: center 120px;
+    padding-bottom: 8rem;
+  }
 }
 
 #vis {
@@ -97,8 +176,13 @@ section {
 }
 
 .img-fluid-vis {
+  max-width: 100%;
+  height: auto;
   @media (max-width: 575.98px) {
     max-width: 115%;
+  }
+  @media(min-width: 1281px) {
+    max-width: 110%;
   }
 }
 
@@ -113,7 +197,11 @@ section {
   }
   @media(min-width: 1281px) {
       height: 100vh;
-    }
+  }
+  @media(max-width: 991.98px) {
+    background-position: center 30px;
+    padding-bottom: 15rem;
+  }
 }
 
 #cpart {
@@ -126,15 +214,20 @@ section {
     height: 800px;
   }
   @media(min-width: 1281px) {
-      height: 100vh;
-    }
+    height: 100vh;
+  }
 }
 
 .img-fluid-cpart {
+  max-width: 100%;
+  height: auto;
   @media (max-width: 575.98px) {
     display: flex;
     max-width: 60%;
     margin: 0 auto 0;
+  }
+  @media(min-width: 1281px) {
+//    padding-top: 30px;
   }
 }
 
@@ -144,6 +237,29 @@ section {
   }
 }
 
+#slogan2 {
+  position: relative;
+}
+
+.pac-slogan2 {
+  padding: 60px;
+  text-align: center;
+}
+
+.pac-slogan2-text {
+  font-size: 1.3rem;
+  color: #4f5050;
+//  padding-top: 50px;
+    @media (max-width: 767.98px) {
+      font-size: 1.1rem;
+    }
+    @media(min-width: 1281px) {
+      padding-top: 30px;
+    }
+//    @media (max-width: 575.98px) {
+//      font-size: 1.2rem;
+//    }
+}
 
 #about {
   position: relative;
@@ -162,6 +278,9 @@ section {
   border-radius: 50% !important;
   margin-bottom: 20px;
 }
+.pac-mail {
+  padding-right: 3px;
+}
 
 .monster-div {
   position: absolute;
@@ -179,6 +298,12 @@ section {
   }
 }
 
+.pac-contact-header {
+  @media(min-width: 1281px) {
+    margin: 100px auto 0;
+  }
+}
+
 .pac-btn {
   font-size: 20px;
   padding: 14px 28px;
@@ -192,5 +317,26 @@ section {
     margin: 40px auto 3;
     font-size: 15px;
     padding: 10px 19px;
+  }
+}
+
+
+// Privacy Policy & Terms and Conditions //
+
+.page-header {
+  text-align: center;
+  color: black;
+  background-image: url('../img/Background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 30%;
+  position: relative;
+  height: 250px;
+  margin-bottom: 50px;
+  .intro-text {
+    .logo {
+      height: 140px;
+      margin-top: 58px;
+    }
   }
 }

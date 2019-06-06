@@ -41,6 +41,11 @@ section {
     @media (max-width: 575.98px) {
       font-size: 20px;
     }
+    @media(min-width: 1281px) {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
   }
   h2.section-heading-contact {
     font-size: 34px;

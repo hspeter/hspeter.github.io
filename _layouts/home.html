@@ -1,40 +1,43 @@
 ---
 layout: default
 ---
-{%- assign assets_path = "assets/" -%}
+{%- assign assets_path = "/assets/" -%}
 {%- if site.assets_path -%}
   {%- assign assets_path = site.assets_path -%}
 {%- endif -%}
     {% assign ws = '' %}
 
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div style="display: flex; justify-content: center;">
-            <img class="img-fluid logo" src="{{ site.data.home.intro.logo }}" style="" />
-          </div>
-        </div>
-        <div class="row text-center services">
-          {%- for service in site.data.home.services.service -%}
-          <div class="col-md-3 col-sm-6 col-6">
-            <a href="#{{ service.id }}">
-              <span class="service-icons">
-                <img src="{{ service.icon }}">
-              </span>
-              <h4 class="service-heading">{{ service.heading }}</h4>
-            </a>
-          </div>
-          {%- endfor -%}
-        </div>
+<!-- Header -->
+<header class="masthead">
+  <div class="pac-container">
+    <div class="intro-text">
+      <div style="display: flex; justify-content: center;">
+        <img class="img-fluid logo" src="{{ site.data.home.intro.logo }}" style="" />
       </div>
-    </header>
+    </div>
+    <div style="display: flex; justify-content: center;">
+      <img class="img-fluid pac-slogan" src="{{ site.data.home.intro.logo-slogan }}" style="" />
+    </div>
+    <div class="row text-center services">
+      {%- for service in site.data.home.services.service -%}
+      <div class="col-md-3 col-sm-6 col-6">
+        <a class="js-scroll-trigger" href="#{{ service.id }}">
+          <span class="service-icons">
+            <img src="{{ service.icon }}">
+          </span>
+          <h4 class="service-heading">{{ service.heading }}</h4>
+        </a>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</header>
 
 
     <!-- Packaging Development -->
     <section id="{{site.data.home.packdev.id}}" class="pac-section">
-      <div class="container">
+      <div class="pac-container">
         <div class="row">
           <div class="col-lg-12 text-center pac-header">
             <img class="service-icon-top" src="/assets/img/services/pac-pencil.svg">
@@ -50,7 +53,7 @@ layout: default
 
    <!-- 3D Visualisation -->
    <section id="{{site.data.home.vis.id}}" class="pac-section">
-     <div class="container">
+     <div class="pac-container">
        <div class="row">
          <div class="col-lg-12 text-center pac-header">
            <img class="service-icon-top" src="/assets/img/services/pac-boxes.svg">
@@ -62,7 +65,7 @@ layout: default
        </div>
        <div class="row">
           <div class="col-md-4 col-sm-4 col-6 portfolio-item">
-              <img class="img-fluid img-fluid-vis" src="/assets/img/portfolio/03-full.png" alt="">
+              <img class="img-fluid-vis" src="/assets/img/portfolio/03-full.png" alt="">
           </div>
           <div class="col-md-4 col-sm-4 col-6 portfolio-item">
               <img class="img-fluid img-fluid-vis" src="/assets/img/portfolio/02-full.png" alt="">
@@ -76,8 +79,8 @@ layout: default
 
 
   <!-- Production Drawing -->
-  <section id="{{site.data.home.draw.id}}" class="pac-section">
-    <div class="container">
+  <section id="{{site.data.home.draw.id}}" class="pac-section pac-section-draw">
+    <div class="pac-container">
       <div class="row">
         <div class="col-lg-12 text-center pac-header">
           <img class="service-icon-top" src="/assets/img/services/pac-draw.svg">
@@ -91,9 +94,9 @@ layout: default
  </section>
 
 
- <!-- C-Part Management -->
+<!-- C-Part Management -->
  <section id="{{site.data.home.cpart.id}}" class="pac-section">
-   <div class="container">
+   <div class="pac-container">
      <div class="row">
        <div class="col-lg-12 text-center pac-header">
          <img class="service-icon-top" src="/assets/img/services/pac-pallet.svg">
@@ -105,69 +108,79 @@ layout: default
      </div>
      <div class="row">
         <div class="col-md-6 col-sm-6 portfolio-item">
-            <img class="img-fluid img-fluid-cpart" src="/assets/img/cpart/cpart-1.png" alt="">
+            <img class="img-fluid-cpart" src="/assets/img/cpart/cpart-1.png" alt="">
         </div>
         <div class="col-md-6 col-sm-6 portfolio-item">
-            <img class="img-fluid img-fluid-cpart last-cpart" src="/assets/img/cpart/cpart-2.png" alt="">
+            <img class="img-fluid-cpart last-cpart" src="/assets/img/cpart/cpart-2.png" alt="">
         </div>
       </div>
    </div>
 </section>
 
 
-    <!-- Team -->
-    <section id="about" class="pac-section">
-      <div class="container pac-team">
-          {%- for member in site.data.home.team.members -%}
+<!-- Slogan 2 -->
+<section id="slogan2" class="pac-slogan2">
+<!--      <img class="mx-auto" src="{{ site.data.home.intro.logo-slogan }}">  -->
+  <div class="pac-container">
+    <div class="row pac-slogan2-text">
+      <p>{{ site.data.home.slogan2.text }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section id="about" class="pac-section">
+  <div class="pac-container pac-team">
+      {%- for member in site.data.home.team.members -%}
+      {% assign ws = '' %}
+        <div class="team-member pac-mail">
+          <img class="mx-auto rounded-circle-team" src="{{ assets_path }}{{ member.img }}" alt="">
+          <h2 class="section-heading">{{ member.name }}</h2>
+          <div class="row pac-text-justify pac-content">
+            <p>{{ member.role }}</p>
+          </div>
+          <ul class="list-inline social-buttons">
+            {%- for sm in member.social-buttons -%}
+            {% assign ws = '' %}
+            <li class="list-inline-item">
+              <a href="{{ sm.url }}">
+                <i class="{{ sm.icon }}"></i>
+              </a>
+            </li>
+            {%- endfor -%}
           {% assign ws = '' %}
-            <div class="team-member">
-              <img class="mx-auto rounded-circle-team" src="{{ assets_path }}{{ member.img }}" alt="">
-              <h2 class="section-heading">{{ member.name }}</h2>
-              <div class="row text-center pac-content">
-                <p>{{ member.role }}</p>
-              </div>
-              <ul class="list-inline social-buttons">
-                {%- for sm in member.social-buttons -%}
-                {% assign ws = '' %}
-                <li class="list-inline-item">
-                  <a href="{{ sm.url }}">
-                    <i class="{{ sm.icon }}"></i>
-                  </a>
-                </li>
-                {%- endfor -%}
-              {% assign ws = '' %}
-              </ul>
-            </div>
-          </div>
-          {%- endfor -%}
-        {% assign ws = '' %}
-      <div class="monster-div">
-        <a href="{{ top-page }}">
-          <img class="monster" src="/assets/img/monster_5.png" alt="">
-        </a>
-      </div>
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.contact.heading }}</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div>
-              <p>
-                <a href="mailto:henriette.s.peter@gmail.com" class="btn btn-primary pac-btn text-uppercase">Message</a>
-              </p>
-            </div>
-            <div class="pac-content-contact">
-              <p> mail [at] pacconcept.com </p>
-            </div>
-          </div>
+          </ul>
         </div>
       </div>
-    </section>
+      {%- endfor -%}
+    {% assign ws = '' %}
+  <div class="monster-div">
+    <a href="{{ top-page }}">
+      <img class="monster" src="/assets/img/monster_5.png" alt="">
+    </a>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact">
+  <div class="pac-container">
+    <div class="row">
+      <div class="col-lg-12 text-center pac-contact-header">
+        <h2 class="section-heading text-uppercase">{{ site.data.home.contact.heading }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div>
+          <p>
+            <a href="mailto:mail@pacconcept.com" class="btn btn-primary pac-btn text-uppercase">Message</a>
+          </p>
+        </div>
+        <div class="pac-content-contact">
+          <p> mail [at] pacconcept.com </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

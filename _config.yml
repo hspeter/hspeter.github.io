@@ -4,10 +4,13 @@ title: Pacconcept
 description: Freelancing homepage for customised packaging solutions
 author: Henriette S. Peter
 
-theme: jekyll-theme-startbootstrap-agency
+# theme: jekyll-theme-startbootstrap-agency
 
 sass:
   style: compressed
+
+#plugins:
+#  - jekyll-seo-tag
 
 collections:
   projects:

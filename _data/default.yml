@@ -1,5 +1,5 @@
 brand:
-#  name: Pacconcept
+#  name: PacConcept
 menu-string: Menu
 
 nav:
@@ -17,8 +17,10 @@ nav:
     url: '#about'
   - title: Contact
     url: '#contact'
+#  - title: DE
+#    url: '#DE'
 
-copyright: '&copy; Pacconcept 2019'
+copyright: '&copy; PacConcept OÜ 2019'
 
 social-buttons:
   - icon: fab fa-linkedin-in
@@ -26,9 +28,9 @@ social-buttons:
 
 quicklinks:
   - title: Privacy Policy
-    url: '#'
-  - title: Terms of Use
-    url: '#'
+    url: '/privacy-policy/'
+  - title: Terms and Conditions
+    url: '/terms-and-conditions/'
 
 modal:
   date-string: 'Date: '
