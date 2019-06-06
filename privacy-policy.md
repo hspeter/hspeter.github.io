@@ -3,6 +3,7 @@ title: Privacy Policy
 layout: page
 excerpt: "Privacy Policy of pacconcept.com"
 date: 04 June 2019
+permalink: /privacy-policy/
 ---
 
 {%- assign assets_path = "/assets/" -%}

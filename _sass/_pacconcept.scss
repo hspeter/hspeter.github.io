@@ -36,9 +36,12 @@
 }
 
 .pac-slogan {
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: center;
-  height: 100%;
+  max-width: 100%;
+  @media (min-width: 992px) {
+    padding-top: 40px;
+  }
 }
 
 .pac-slogan-container {

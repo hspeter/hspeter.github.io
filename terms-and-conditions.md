@@ -2,6 +2,7 @@
 title: Terms and Conditions
 layout: page
 excerpt: "Terms and Conditions of pacconcept.com"
+permalink: /terms-and-conditions/
 date: 04 June 2019
 ---
 
