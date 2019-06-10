@@ -1,7 +1,8 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
-  line-height: 2rem;
+  //line-height: 2rem;
+  min-height: 46px;
   color: black;
   .navbar-toggler {
     font-size: 12px;

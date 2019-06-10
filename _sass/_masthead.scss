@@ -7,12 +7,14 @@ header.masthead {
   background-attachment: scroll;
   background-position: center 30%;
   position: relative;
+  min-height: 100vh;
+  /*
   @media(min-width:992px) {
     height: 800px;
   }
   @media(min-width: 1281px) {
-    height: 115vh;
-  }
+    min-height: 100vh;
+  }*/
   @include background-cover;
   .intro-text {
     @media (max-width: 575.98px) {
@@ -51,13 +53,18 @@ header.masthead {
 
   }
   .services {
-     padding-bottom: 2rem;   //add for biggest
-    // position: absolute;
-    // bottom: 70px;      //delete?
-    margin: 230px auto 0;
-    max-width: 1200px;
-    padding-bottom: 60px;
+    //padding-bottom: 2rem;   //add for biggest
+    position: absolute;
+    max-width: 1100px;
+    bottom: 2rem;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    //margin: 230px auto 0;
 
+    //padding-bottom: 60px;
+
+    /*
     @media (max-width: 767.98px) {
       margin: 95px auto 0;   //margin: top left/right bottom
       padding-bottom: 60px;
@@ -68,7 +75,7 @@ header.masthead {
     }
     @media (min-width: 1201px) {
       margin: 150px auto 0;
-    }
+    }*/
 
     a {
       color:black;

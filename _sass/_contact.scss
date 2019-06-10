@@ -4,8 +4,10 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
-  height: 515px;
+  min-height: 100vh;
+  min-height: calc(100vh - 45px);
   padding-top: 115px;
+  /*
   @media (max-width: 767.98px) {
     height: 400px;
     padding-top: 100px;
@@ -17,6 +19,7 @@ section#contact {
   @media(min-width: 1281px) {
       height: 100vh;
     }
+    */
   .section-heading {
     color: $white;
   }
