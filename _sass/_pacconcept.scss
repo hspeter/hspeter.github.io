@@ -245,8 +245,9 @@ section {
 }
 
 .pac-slogan2 {
-  padding: 60px;
-  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-align: justify;
 }
 
 .pac-slogan2-text {
@@ -301,6 +302,10 @@ section {
   }
 }
 
+#contact {
+  position: relative;
+}
+
 .pac-contact-header {
   @media(min-width: 1281px) {
     margin: 100px auto 0;
@@ -322,6 +327,102 @@ section {
     padding: 10px 19px;
   }
 }
+
+// Share Bar//
+
+.pac-content-share{
+  font-size: 0.8rem;
+  color: #EEE;
+    @media (min-width: 576px) {
+      font-size: 0.9rem;
+    }
+    @media (min-width: 768px) {
+      font-size: 1rem;
+      padding-bottom: 2px;
+    }
+}
+
+.pac-share {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /*
+  margin-top: 34px;
+    @media (min-width: 576px) {
+      margin-top: 44px;
+    }
+    @media (min-width: 768px) {
+        margin-top: 79px;
+    }
+    @media (min-width: 1200px) {
+        margin-top: 138px;
+    }*/
+}
+
+
+.share-box a {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 1px #777;
+  box-shadow: 0 0 1px #777;
+  padding: 1px 4px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  background-color: #EEE;
+  border-radius: 3px;
+  @media (min-width: 576px) {
+    padding: 1px 4px;
+    margin-right: 2px;
+  }
+  @media (min-width: 768px) {
+    padding: 2px 5px;
+    margin-right: 2px;
+  }
+  @media (min-width: 1200px) {
+    padding: 3px 7px;
+    margin-right: 3px;
+  }
+}
+  .share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
+
+.pac-share-font {
+  font-size: 0.7rem;
+  @media (min-width: 576px) {
+    font-size: 0.8rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
+
+.f {
+  color: #3b5998; }
+  .f:hover {
+    color: #fff;
+    background-color: #3b5998; }
+
+.t {
+  color: #4099FF; }
+  .t:hover {
+    color: #fff;
+    background-color: #4099FF; }
+
+.l {
+  color: #0077b5; }
+  .l:hover {
+    color: #fff;
+    background-color: #0077b5; }
+
+.e {
+  color: #444444; }
+  .e:hover {
+    color: #fff;
+    background-color: #444444; }
 
 
 // Privacy Policy & Terms and Conditions //
