@@ -123,15 +123,15 @@ section {
 .service-icons {
   //position: relative;
   display: inline-block;
-  font-size: 4em;
-  width: 50px;
-  @media (max-width: 767.98px) {
-    font-size: 3.5em;
+  font-size: 2.5em;
+  width: 38px;
+  @media (min-width: 576px) {
+    font-size: 3rem;
     width: 45px;
   }
-  @media (max-width: 575.98px) {
-    font-size: 3em;
-    width: 38px;
+  @media (min-width: 768px) {
+    font-size: 3.5em;
+    width: 50px;
   }
 }
 
