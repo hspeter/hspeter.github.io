@@ -256,11 +256,13 @@ section {
 .row-center {
   justify-content: center;
   .loop-video {
-    max-height: 20vh;
+    max-width: 45vw;
     margin-top: 1rem;
+    @media(min-width: 576px) {
+      max-width: 30vw;
+    }
     @media(min-width: 992px) {
-      max-height: 30vh;
-      margin-top: 1rem;
+      max-width: 25vw;
     }
   }
 }
@@ -363,12 +365,13 @@ section {
     h2 {         // indent of heading text
     padding-left: 2%;
     background: #ffffff;
-    width: 42%;
+    width: 55%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 1.25rem;
     @media(min-width: 768px) {
       font-size: 1.5rem;
+      width: 42%;
     }
     @media(min-width: 992px) {
       font-size: 1.75rem;
