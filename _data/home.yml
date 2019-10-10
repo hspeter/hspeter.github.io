@@ -4,43 +4,56 @@ intro:
 
 services:
   service:
-    - icon: /assets/img/services/pac-pencil.svg
-      heading: Packaging Development
-      id: packdev
-    - icon: /assets/img/services/pac-boxes.svg
-      heading: 3D Visualisation
-      id: vis
-    - icon: /assets/img/services/pac-draw.svg
-      heading: Production Drawing
-      id: draw
-    - icon: /assets/img/services/pac-pallet.svg
-      heading: C-Part Management
-      id: cpart
+    - heading: The Difference
+      id: diff
+      #icon: /assets/img/services/pac-pencil.svg
+    - heading: Services
+      id: serv
+      #icon: /assets/img/services/pac-boxes.svg
+    - heading: Benefits of Working Digital
+      id: benefits
+      #icon: /assets/img/services/pac-draw.svg
+  #  - icon: /assets/img/services/pac-pallet.svg
+  #    heading: C-Part Management
+  #    id: cpart
 
-packdev:
-  id: packdev
-  icon: /assets/img/services/pac-pencil.svg
-  heading: Packaging Development
-  text: Every product needs to be packed, be it for transportation or presentation purposes. Therefore, it is imperative to evaluate the characteristics of each product and professionally develop packaging that protects and complements your goods throughout its packed life-cycle.<br>PacConcept specialises in designing, conceptualising and developing optimal and efficient packaging solutions, keeping your individual needs and its respective packaging process in mind and complying with international standards.<br>The custom packaging solutions that we offer are not bound to specific suppliers or manufacturers, for PacConcept, an optimal and sincere packaging is of primary importance. The packaging solution becomes your property and you have complete flexibility to request and compare quotations and to find a suitable production partner for each individual concept worldwide.
+diff:
+  id: diff
+#  icon: /assets/img/services/pac-pencil.svg
+  heading: The Difference
+  text1: PacConcept is supplier and manufacturer independent
+  text1a: Not interested in selling specific materials and goods
+  text1b: Providing optimal packaging solutions
+  text2: All deliverables are customer's property
+  text2a: Giving complete flexibility to request and compare production quotations and to find a suitable production partner worldwide
 
 
-vis:
-  id: vis
-  icon: /assets/img/services/pac-boxes.svg
-  heading: 3D Visualisation
-  text: We live in a visual world where concepts thrive when properly visualised. 3D Visualisations augment correct understanding during the conceptualisation, manufacturing and assembly processes and help add tangible value to the packaging, for all parties involved.<br>We create realistic visualisations of packaging solutions for multiple purposes at different stages. Be it the folding process, key details, the exploded view or the final packaging solution. You can get high-resolution images, or even the 3D model of your concept to interactively visualise it.
+serv:
+  id: serv
+#  icon: /assets/img/services/pac-boxes.svg
+  heading: Services
+  text1: Evaluation and discussion of the characteristics of each product to ensure all nedds and expectations are met
+  text2: Development of packaging that protects and complets the goods throughout its packed life-cycle
+  text3: Photorealistic image and video visualisations, for better understanding, communication and assembly
+  text4: Provision of production ready and internationally compliant 2D-drawings of the packaging solution
+  text5: "C-part management: Calculation and visualisation of optimal packing volume and stacking pattern for bulk transportation, within standardised pallet sizes"
 
-draw:
-  id: draw
-  icon: /assets/img/services/pac-draw.svg
-  heading: Production Drawing
-  text: For the actual production and manufacturing of the packaging solution, it is essential to have professional production drawings that embody the packaging concept.<br>We draft accurate and internationally compliant production drawings of the packaging solution that can be used by any manufacturer. These do not only portray the technical details of the packaging solution but can also be used to be deposited in the enterprise resource planning (ERP) system, to speed up recurring purchases.
 
-cpart:
-  id: cpart
-  icon: /assets/img/services/pac-pallet.svg
-  heading: C-Part Management
-  text: For bulk transportation of your packaging solution, we can help you find the optimal packing volume and stacking pattern within standardised pallet sizes. We draw and clearly visualise our suggestion, so that you can be confident that no space is being wasted. These drawings provide a good base in handling reoccurring purchases, as they can be easily embedded in customer relationship management (CRM) and enterprise resource planning (ERP) systems.
+benefits:
+  id: benefits
+#  icon: /assets/img/services/pac-draw.svg
+  heading: Benefits of Working Digital
+  text1: No unnecessary paperwork
+  text2: No product sample shipping costs
+  text3: Direct communication and record keeping through modern media
+  text4: Visual packaging evaluation before sample production
+  text5: Digital files can be deposited in CRM and ERP systems for reoccurring purchases
+
+#cpart:
+#  id: cpart
+#  icon: /assets/img/services/pac-pallet.svg
+#  heading: C-Part Management
+#  text: For bulk transportation of your packaging solution, we can help you find the optimal packing volume and stacking pattern within standardised pallet sizes. We draw and clearly visualise our suggestion, so that you can be confident that no space is being wasted. These drawings provide a good base in handling reoccurring purchases, as they can be easily embedded in customer relationship management (CRM) and enterprise resource planning (ERP) systems.
 
 team:
   id: pac-team

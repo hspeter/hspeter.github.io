@@ -5,16 +5,16 @@ menu-string: Menu
 nav:
   - title: Home
     url: '#page-top'
-  - title: Packaging Development
-    url: '#packdev'
-  - title: 3D Visualisation
-    url: '#vis'
-  - title: Production Drawing
-    url: '#draw'
-  - title: C-Part Management
-    url: '#cpart'
+  - title: The Difference
+    url: '#diff'
+  - title: Services
+    url: '#serv'
+  - title: Benefits of Working Digital
+    url: '#benefits'
+#  - title: C-Part Management
+#    url: '#cpart'
   - title: about
-    url: '#about'
+    url: '#slogan2'
   - title: Contact
     url: '#contact'
 #  - title: DE

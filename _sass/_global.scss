@@ -44,12 +44,23 @@ section {
       margin-top: 50px;
       margin-bottom: 20px;
     }
-
   }
   h2.section-heading-contact {
     font-size: 34px;
     margin-bottom: 60px;
     color: white;
+    @media (max-width: 767.98px) {
+      font-size: 27px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  }
+  h2.section-headings {
+    font-size: 34px;
+    color: black;
+    text-align: right;
     @media (max-width: 767.98px) {
       font-size: 27px;
     }

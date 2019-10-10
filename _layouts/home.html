@@ -9,7 +9,7 @@ layout: default
 
 
 <!-- Header -->
-<header class="masthead">
+<header class="masthead rel">
   <div class="pac-container">
     <div class="intro-text">
       <h1 style="display:none;">{{ page.title }}</h1>
@@ -20,7 +20,7 @@ layout: default
     <div style="justify-content: center;">
       <img alt="customised digital packaging solutions" class="pac-slogan" src="{{ site.data.home.intro.logo-slogan }}" style="" />
     </div>
-    <div class="row text-center services">
+<!--    <div class="row text-center services">
       {%- for service in site.data.home.services.service -%}
       <div class="col-md-3 col-sm-6 col-6">
         <a class="js-scroll-trigger" href="#{{ service.id }}">
@@ -31,71 +31,190 @@ layout: default
         </a>
       </div>
       {%- endfor -%}
-    </div>
+    </div> -->
+  </div>
+  <div class="arrow-down">
+    <a href="#diff" class="nav-link js-scroll-trigger"><i class="fal fa-chevron-double-down fa-3x"></i></a>
   </div>
 </header>
 
-
-<!-- Packaging Development -->
-<section id="{{site.data.home.packdev.id}}" class="pac-section">
-  <div class="pac-container">
-    <div class="row">
-      <div class="col-lg-12 text-center pac-header">
-        <img alt="Packaging Development Icon" class="service-icon-top" src="/assets/img/services/pac-pencil.svg">
-        <h2 class="section-heading text-uppercase">{{site.data.home.packdev.heading}}</h2>
-      </div>
+<!-- The Difference -->
+<section id="{{site.data.home.diff.id}}" class="pac-section">
+  <div class="page-main-header header-difference">
+      <video class= "loop-video-diff" autoplay loop muted playsinline>  <!-- "playsinline" for iPhone -->
+        <source src="/assets/video/paperclip_.mkv" type="video/mp4">
+      </video>
+      <h2 class="text-uppercase">{{site.data.home.diff.heading}}</h2>
+  </div>
+  <div class="pac-container pac-text-justify row-difference">
+    <div class="row pac-text-justify pac-content-diff1">
+      <p> {{ site.data.home.diff.text1 }} </p>
     </div>
-    <div class="row pac-text-justify pac-content">
-      <p> {{ site.data.home.packdev.text }} </p>
+    <div class="pac-content-diff2">
+      <p>
+        <i class="fal fa-angle-right fa-2x"></i>
+        <span>{{ site.data.home.diff.text1a }}</span>
+      </p>
+    </div>
+    <div class="pac-content-diff2">
+      <p>
+        <i class="fal fa-angle-right fa-2x"></i>
+        <span>{{ site.data.home.diff.text1b }}</span>
+      </p>
+    </div>
+    <div class="row pac-text-justify pac-content-diff1">
+      <p> {{ site.data.home.diff.text2 }} </p>
+    </div>
+    <div class="pac-content-diff2">
+      <p>
+        <i class="fal fa-angle-right fa-2x"></i>
+        <span>{{ site.data.home.diff.text2a }} </span>
+      </p>
     </div>
   </div>
 </section>
 
 
- <!-- 3D Visualisation -->
- <section id="{{site.data.home.vis.id}}" class="pac-section">
-   <div class="pac-container">
-     <div class="row">
-       <div class="col-lg-12 text-center pac-header">
-         <img alt="3D Visualisation Icon" class="service-icon-top" src="/assets/img/services/pac-boxes.svg">
-         <h2 class="section-heading text-uppercase">{{site.data.home.vis.heading}}</h2>
-       </div>
-     </div>
-     <div class="row pac-text-justify pac-content">
-       <p> {{ site.data.home.vis.text }}</p>
-     </div>
-     <div class="row">
-        <div class="col-md-4 col-sm-4 col-6 portfolio-item">
-            <img alt="3D Visualisation 1" class="img-fluid-vis" src="/assets/img/portfolio/03-full.png" alt="">
+ <!-- Services -->
+ <section id="{{site.data.home.serv.id}}" class="pac-section">
+    <div class="page-main-header header-services">
+      <h2 class="heading-text text-uppercase">{{site.data.home.serv.heading}}</h2>
+    </div>
+    <div class="pac-container">
+      <div class="row-flex row-flex-main">
+    <!-- Left Side with Display of Images as "Thumbprints"-->
+        <div class="row-flex-column row-flex-column-l" data-toggle="modal" data-target="#exampleModal">
+          <div class="row-flex">
+            <div class="row-flex-column-img">
+               <img alt="3D Visualisation 1" class="img-fluid img-fluid-services" src="/assets/img/portfolio/brake.png" data-target="#carouselExample" data-slide-to="0">
+               <img alt="3D Visualisation 2" class="img-fluid" src="/assets/img/portfolio/foam.png" data-target="#carouselExample" data-slide-to="1">
+            </div>
+            <div class="row-flex-column-img">
+              <img alt="3D Visualisation 3" class="img-fluid img-fluid-services" src="/assets/img/portfolio/display.png" data-target="#carouselExample" data-slide-to="2">
+            </div>
+          </div>
+          <div class="row-flex row-center">
+            <video class= "loop-video" autoplay loop muted playsinline data-target="#carouselExample" data-slide-to="3">  <!-- "playsinline" for iPhone -->
+              <source alt="3D Animation" type="video/mp4" src="/assets/video/animation_.mkv">
+            </video>
+          </div>
+          <div class="row-flex">
+            <div class="row-flex-column-img">
+              <img alt="3D Visualisation 4" class="img-fluid img-fluid-services" src="/assets/img/portfolio/cpart-1.png" data-target="#carouselExample" data-slide-to="4">
+            </div>
+            <div class="row-flex-column-img">
+              <img alt="3D Visualisation 5" class="img-fluid img-fluid-services" src="/assets/img/portfolio/cpart-2.png" data-target="#carouselExample" data-slide-to="5">
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-4 col-6 portfolio-item">
-            <img alt="3D Visualisation 2" class="img-fluid img-fluid-vis" src="/assets/img/portfolio/02-full.png" alt="">
+    <!-- Display of Images in Carousel-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-services" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="carouselExample" class="carousel slide" data-ride="carousel"> <!-- data-interval is the time before the carousel turns-->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExample" data-slide-to="1"></li>
+                    <li data-target="#carouselExample" data-slide-to="2"></li>
+                    <li data-target="#carouselExample" data-slide-to="3"></li>
+                    <li data-target="#carouselExample" data-slide-to="4"></li>
+                    <li data-target="#carouselExample" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active img-small">
+                      <img class="" src="/assets/img/portfolio/brake.png" alt="3D Visualisation 1">
+                    </div>
+                    <div class="carousel-item img-small">
+                      <img class="" src="/assets/img/portfolio/foam.png" alt="3D Visualisation 2">
+                    </div>
+                    <div class="carousel-item img-long">
+                      <img class="" src="/assets/img/portfolio/display.png" alt="3D Visualisation 3">
+                    </div>
+                    <div class="carousel-item">
+                      <video class= "loop-video" autoplay loop muted playsinline>  <!-- "playsinline" for iPhone -->
+                        <source alt="3D Animation" src="/assets/video/animation_.mkv" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="carousel-item img-cpart">
+                      <img class="" src="/assets/img/portfolio/cpart-1.png" alt="3D Visualisation 4">
+                    </div>
+                    <div class="carousel-item img-cpart">
+                      <img class="" src="/assets/img/portfolio/cpart-2.png" alt="3D Visualisation 5">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-4 col-6 portfolio-item last-item">
-            <img alt="3D Visualisation 3" class="img-fluid img-fluid-vis" src="/assets/img/portfolio/01-full.png" alt="">
+    <!-- Right Side with Text-->
+        <div class="row-flex-column row-flex-column-r pac-text-justify pac-content-diff1">
+          <div> <p> {{ site.data.home.serv.text1 }}</p> </div>
+          <pac-hr> </pac-hr>
+          <div> <p> {{ site.data.home.serv.text2 }}</p> </div>
+          <pac-hr> </pac-hr>
+          <div> <p> {{ site.data.home.serv.text3 }}</p> </div>
+          <pac-hr> </pac-hr>
+          <div> <p> {{ site.data.home.serv.text4 }}</p> </div>
+          <pac-hr> </pac-hr>
+          <div> <p> {{ site.data.home.serv.text5 }}</p> </div>
         </div>
       </div>
-   </div>
+    </div>
 </section>
 
 
-<!-- Production Drawing -->
-<section id="{{site.data.home.draw.id}}" class="pac-section pac-section-draw">
+<!-- Benefits -->
+<section id="{{site.data.home.benefits.id}}" class="pac-section">
+  <div class="page-main-header header-benefits">
+    <h2 class="heading-text text-uppercase">{{site.data.home.benefits.heading}}</h2>
+  </div>
   <div class="pac-container">
-    <div class="row">
-      <div class="col-lg-12 text-center pac-header">
-        <img alt="Production Drawing Icon" class="service-icon-top" src="/assets/img/services/pac-draw.svg">
-        <h2 class="section-heading text-uppercase">{{site.data.home.draw.heading}}</h2>
+    <div class="pac-text-justify pac-content-benefits">
+      <div class="row-benefits">
+        <img class="benefits-icon" src="/assets/img/benefits/trash.svg">
+        <p> {{ site.data.home.benefits.text1 }}</p>
       </div>
-    </div>
-    <div class="row pac-text-justify pac-content">
-      <p>{{ site.data.home.draw.text }}</p>
+      <div class="row-benefits">
+        <img class="benefits-icon" src="/assets/img/benefits/truck.svg">
+        <p> {{ site.data.home.benefits.text2 }}</p>
+      </div>
+      <div class="row-benefits">
+        <img class="benefits-icon" src="/assets/img/benefits/talk.svg">
+        <p> {{ site.data.home.benefits.text3 }}</p>
+      </div>
+      <div class="row-benefits">
+        <img class="benefits-icon" src="/assets/img/benefits/digital.svg">
+        <p> {{ site.data.home.benefits.text4 }}</p>
+      </div>
+      <div class="row-benefits">
+        <img class="benefits-icon" src="/assets/img/benefits/save.svg">
+        <p> {{ site.data.home.benefits.text5 }}</p>
+      </div>
     </div>
   </div>
+  <pac-hr2> </pac-hr2>
 </section>
 
 
-<!-- C-Part Management -->
+<!-- C-Part Management
  <section id="{{site.data.home.cpart.id}}" class="pac-section">
    <div class="pac-container">
      <div class="row">
@@ -116,7 +235,7 @@ layout: default
         </div>
       </div>
    </div>
-</section>
+</section> -->
 
 
 <!-- Slogan 2 -->
@@ -137,7 +256,7 @@ layout: default
         <div class="team-member pac-mail">
           <img alt="Henriette Peter Image" class="mx-auto rounded-circle-team" src="{{ assets_path }}{{ member.img }}" alt="">
           <h2 class="section-heading">{{ member.name }}</h2>
-          <div class="row pac-text-justify pac-content">
+          <div class="row pac-text-justify pac-content-about">
             <p>{{ member.role }}</p>
           </div>
           <ul class="list-inline social-buttons">
@@ -157,7 +276,7 @@ layout: default
     {% assign ws = '' %}
   <div class="monster-div">
     <a href="{{ top-page }}">
-      <img alt="Monster" class="monster" src="/assets/img/monster_5.png" alt="">
+      <img class="monster" src="/assets/img/monster_5.png" alt="">
     </a>
   </div>
 </section>
