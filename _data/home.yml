@@ -6,20 +6,13 @@ services:
   service:
     - heading: The Difference
       id: diff
-      #icon: /assets/img/services/pac-pencil.svg
     - heading: Services
       id: serv
-      #icon: /assets/img/services/pac-boxes.svg
     - heading: Benefits of Working Digital
       id: benefits
-      #icon: /assets/img/services/pac-draw.svg
-  #  - icon: /assets/img/services/pac-pallet.svg
-  #    heading: C-Part Management
-  #    id: cpart
 
 diff:
   id: diff
-#  icon: /assets/img/services/pac-pencil.svg
   heading: The Difference
   text1: PacConcept is supplier and manufacturer independent
   text1a: Not interested in selling specific materials and goods
@@ -30,10 +23,9 @@ diff:
 
 serv:
   id: serv
-#  icon: /assets/img/services/pac-boxes.svg
   heading: Services
   text1: Evaluation and discussion of the characteristics of each product to ensure all nedds and expectations are met
-  text2: Development of packaging that protects and complets the goods throughout its packed life-cycle
+  text2: Development of packaging that protects and completes the goods throughout its packed life-cycle
   text3: Photorealistic image and video visualisations, for better understanding, communication and assembly
   text4: Provision of production ready and internationally compliant 2D-drawings of the packaging solution
   text5: "C-part management: Calculation and visualisation of optimal packing volume and stacking pattern for bulk transportation, within standardised pallet sizes"
@@ -41,7 +33,6 @@ serv:
 
 benefits:
   id: benefits
-#  icon: /assets/img/services/pac-draw.svg
   heading: Benefits of Working Digital
   text1: No unnecessary paperwork
   text2: No product sample shipping costs
@@ -49,11 +40,6 @@ benefits:
   text4: Visual packaging evaluation before sample production
   text5: Digital files can be deposited in CRM and ERP systems for reoccurring purchases
 
-#cpart:
-#  id: cpart
-#  icon: /assets/img/services/pac-pallet.svg
-#  heading: C-Part Management
-#  text: For bulk transportation of your packaging solution, we can help you find the optimal packing volume and stacking pattern within standardised pallet sizes. We draw and clearly visualise our suggestion, so that you can be confident that no space is being wasted. These drawings provide a good base in handling reoccurring purchases, as they can be easily embedded in customer relationship management (CRM) and enterprise resource planning (ERP) systems.
 
 team:
   id: pac-team

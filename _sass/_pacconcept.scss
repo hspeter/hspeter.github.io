@@ -3,6 +3,7 @@
   text-align: justify;
 }
 
+
 //   PAC-CONTAINER  //
 
 .pac-container {
@@ -50,6 +51,10 @@
     bottom: 1.2rem;
     right: 0;
     left: 0;
+    padding-bottom: 2rem;
+    @media(min-width: 576px) {
+      padding-bottom: 0;
+    }
     a {
       color: #4f5050;
     }
@@ -66,36 +71,6 @@
   }
 }
 }
-
-//.pac-slogan-container {
-//  width: 80%;
-//  padding-right: 15px;
-//  padding-left: 15px;
-//  margin-right: auto;
-//  margin-left: auto;
-//}
-
-//@media (min-width: 576px) {  //double?
-//  .pac-container {
-//    max-width: 540px;
-//  }
-//}
-//@media (min-width: 768px) {
-//  .pac-container {
-//    max-width: 720px;
-//  }
-//}
-//@media (min-width: 992px) {
-//  .pac-container {
-//    max-width: 960px;
-//  }
-//}
-//@media (min-width: 1200px) {
-//  .pac-container {
-//    max-width: 1140px;
-//  }
-//}
-
 
 //   SECTION SETTINGS   //
 
@@ -169,55 +144,12 @@ section {
   }
 }
 
-//.service-icons {
-  //position: relative;
-//  display: inline-block;
-//  font-size: 2.5em;
-//  width: 38px;
-//  @media (min-width: 576px) {
-//    font-size: 3rem;
-//    width: 45px;
-//  }
-//  @media (min-width: 768px) {
-//    font-size: 3.5em;
-//    width: 50px;
-//  }
-//}
-
-//.service-icon-top {
-//  height: 3rem;
-//  margin-bottom: 1rem;
-//  margin-right: 40px;
-//  @media (max-width: 767.98px) {
-//    height: 2.5rem;
-//  }
-//  @media (max-width: 575.98px) {
-//    height: 2rem;
-//  }
-//}
-
-
 
 //   ROW STYLES   //
-/*
-.row-difference-header {
-  video {
-    width: 10rem;
-    display: flex;
-    align-items: center;
-//    i {
-//      margin-left: 2rem;
-//      margin-right: 1.5rem;
-//    }
-  }
-  h2 {
-    display: flex;
-    align-items: center;
-  }
-  margin-bottom: 1rem;
-}*/
+
 
 .row-difference {
+  margin-bottom: 1rem;
   p {
     display: flex;
     align-items: center;
@@ -233,14 +165,8 @@ section {
       }
     }
   }
-  margin-bottom: 1rem;
 }
 
-/*
-.row-flex-diff {
-    display: flex;
-    flex-wrap: wrap;
-}*/
 
 .row-flex {
   //  @media(min-width: 576px) {
@@ -390,18 +316,10 @@ section {
     max-height: 5rem;
     margin-top: -2rem;
     margin-right: 2rem;
-    /*
-    @media(min-width: 768px) {
-      max-height: 3.5rem;
-    }*/
     @media(min-width: 992px) {
       max-height: 7rem;
       margin-top: -3.5rem;
     }
-    /*@media(min-width: 1200px) {
-      max-height: 4rem;
-    }*/
-
   }
   h2 {
     background-color: #f2f1ed;
@@ -426,35 +344,6 @@ section {
 }
 
 
-// #packdev {
-//  background-image: url('../img/services/packdev.jpg');
-//  background-repeat: no-repeat;
-//  background-attachment: scroll;
-//  @include background-cover;
-  // Here you can change the position of the background image according to size
-//  background-position: center 150px;
-//  @media(min-width:992px) {
-//    background-position: center 50px;
-//  }
-//}
-
-//#benefits {
-// background-image: url('../img/header/digital.png');
-//  background-repeat: no-repeat;
-//  background-position: center 150px;
-//}
-
-//#serv {    // what does this do?
-//}
-
-//.last-item {    // for former 3D visualisation
-//  @media (max-width: 575.98px) {
-//    margin: -15px auto 0;
-//  }
-//}
-
-
-
 .img-fluid-vis {      // adjust image size&width to screen size
   max-width: 100%;
   height: auto;
@@ -473,16 +362,6 @@ section {
 //  padding-right: 10px;
 }
 
-//#benefits {
-//  background-image: url('../img/services/draw.jpg');
-//  background-repeat: no-repeat;
-//  background-attachment: scroll;
-//  background-position: center 150px;
-//  @include background-cover;
-//  @media(min-width:992px) {
-//    background-position: center 50px;
-//  }
-//}
 
 //   OVERWRITE BOOTSTRAP CONTROLS  //
 .modal-dialog {
@@ -579,27 +458,7 @@ pac-hr2 {      // line break after Benefits
     margin-right:35%;
 }
 
-//#cpart {
-//}
 
-//.img-fluid-cpart {
-//  max-width: 100%;
-//  height: auto;
-//  @media (max-width: 575.98px) {
-//    display: flex;
-//    max-width: 60%;
-//    margin: 0 auto 0;
-//  }
-//  @media(min-width: 1281px) {
-//    padding-top: 30px;
-//  }
-//}
-
-//.last-cpart {
-//  @media (max-width: 575.98px) {
-//    margin: 15px auto 0;
-//  }
-//}
 
 #slogan2 {
   position: relative;
@@ -624,11 +483,6 @@ pac-hr2 {      // line break after Benefits
     }
     @media(min-width: 1281px) {
     }
-
-
-//    @media (max-width: 575.98px) {
-//      font-size: 1.2rem;
-//    }
 }
 
 #about {
@@ -715,17 +569,6 @@ pac-hr2 {      // line break after Benefits
   bottom: 0;
   right: 0;
   left: 0;
-  /*
-  margin-top: 34px;
-    @media (min-width: 576px) {
-      margin-top: 44px;
-    }
-    @media (min-width: 768px) {
-        margin-top: 79px;
-    }
-    @media (min-width: 1200px) {
-        margin-top: 138px;
-    }*/
 }
 
 
@@ -810,4 +653,16 @@ pac-hr2 {      // line break after Benefits
       margin-top: 58px;
     }
   }
+}
+
+
+//  Impressum  //
+
+.pac-impressum-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.pac-impressum {
+  text-align: center;
 }

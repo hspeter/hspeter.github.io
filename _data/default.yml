@@ -11,8 +11,6 @@ nav:
     url: '#serv'
   - title: Benefits of Working Digital
     url: '#benefits'
-#  - title: C-Part Management
-#    url: '#cpart'
   - title: about
     url: '#slogan2'
   - title: Contact
@@ -27,6 +25,8 @@ social-buttons:
     url: 'https://www.linkedin.com/in/henriette-s-peter/'
 
 quicklinks:
+  - title: Impressum
+    url: '/impressum/'
   - title: Privacy Policy
     url: '/privacy-policy/'
   - title: Terms and Conditions
