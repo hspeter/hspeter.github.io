@@ -2,7 +2,12 @@
 .pac-text-justify {
   text-align: justify;
 }
-
+.pac-text-center {
+  text-align: center;
+}
+.pac-point {
+  cursor: pointer;
+}
 
 //   PAC-CONTAINER  //
 
@@ -194,11 +199,11 @@ section {
   }
 }
 
-.row-flex-column {
+//.row-flex-column {
 // just a container to split the images and text into two columns //
-}
+//}
 
-.row-flex-column-l {
+/*.row-flex-column-l {
   //flex: 45%;
   //max-width: 45%;
   //padding-right: 5%;
@@ -231,7 +236,7 @@ section {
   @media(min-width: 992px) {
     padding-top: 3rem;
   }
-}
+}*/
 
 .row-flex-column-img {
   flex: 50%;
@@ -247,6 +252,22 @@ section {
     max-width: 50%;
 //    padding-right: 10px;
   }
+}
+
+.row-flex-column-3img {
+  flex: 31%;
+  max-width: 31%;
+//  padding-right: 10px;
+//  @media(min-width: 576px) {
+//    flex: 100%;
+//    max-width: 100%;
+//    padding-right: 10px;
+//  }
+//  @media(min-width: 768px) {
+//    flex: 50%;
+//    max-width: 50%;
+//    padding-right: 10px;
+//  }
 }
 
 .row-benefits {
@@ -361,7 +382,16 @@ section {
   max-width: 100%;
   height: auto;
   padding-top: 10px;
-//  padding-right: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.img75 {      // adjust image size&width to screen size
+  max-width: 75%;
+  height: auto;
+}
+.img85 {      // adjust image size&width to screen size
+  max-width: 85%;
+  height: auto;
 }
 
 
@@ -437,17 +467,27 @@ section {
 }
 
 
-pac-hr {      // line break in Services
+pac-hr1st {      // line break in Services
     display: block;
     height: 1px;
     border: 0;
     border-top: 1.5px solid #ccc;
-    margin: 1em 0;
+    margin: 0em 0 2em;
     margin-left: 15%;
     margin-right: 15%;
     padding: 0;
 }
 
+pac-hr {      // line break in Services
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1.5px solid #ccc;
+    margin: 3em 0 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+}
 
 pac-hr2 {      // line break after Benefits
     display: block;

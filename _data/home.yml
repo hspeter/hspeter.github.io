@@ -24,11 +24,10 @@ diff:
 serv:
   id: serv
   heading: Services
-  text1: Evaluation and discussion of the characteristics of each product to ensure all needs and expectations are met
-  text2: Development of packaging that protects and completes the goods throughout its packed life-cycle
-  text3: Photorealistic image and video visualisations, for better understanding, communication and assembly
-  text4: Provision of production ready and internationally compliant 2D-drawings of the packaging solution
-  text5: "C-part management: Calculation and visualisation of optimal packing volume and stacking pattern for bulk transportation, within standardised pallet sizes"
+  text1: <b>Evaluation</b> and <b>discussion</b> of the characteristics of each product to ensure all needs and expectations are met
+  text2: <b>Development</b> of packaging that protects and completes the goods throughout its packed life-cycle & <br> <b>photorealistic image</b> and <b>video visualisations</b>, for better understanding, communication and assembly
+  text3: Provision of production ready and internationally compliant <b>2D-drawings</b> of the packaging solution
+  text4: "C-part management: <b>Calculation</b> and <b>visualisation</b> of optimal packing volume and stacking pattern for <b>bulk transportation</b>, within standardised pallet sizes"
 
 
 benefits:
